@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    display:flex;
+    margin-top: 2%;
+    flex-wrap:wrap;
+    
+}
+
+.figs {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    
+  }
+
+  header{
+    text-align: center;
+    border-bottom: 10px solid black;
+    background-color: darkblue;
+    color: white;
+  }
+
+  body{
+    background-color: lightskyblue;
+  }
+
+  footer{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+  }
+  
+  p{
+    padding:50px;
+    font-size: larger;
+    text-align: center;
+  }
